@@ -1,0 +1,3 @@
+The main file is the "Graph" class so you only have to compile that one and the others should follow. The two text files are the files to read from. "5lw.dat" is the full dictionary, "5lw-s.dat" is a much smaller list that's easier to use for testing. 
+
+It takes a file name as an input from the command line, so to run it from a bash shell (after compiling), you would type "java Graph 5lw.dat" which would start the game with the full dictionary. Then, just follow the prompts.

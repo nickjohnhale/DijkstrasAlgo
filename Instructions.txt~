@@ -1,0 +1,48 @@
+Last login: Thu Jul 21 18:50:50 on console
+Nicholass-MBP:~ nicholashale$ cd Desktop/
+Nicholass-MBP:Desktop nicholashale$ cd Code\ Example/
+Nicholass-MBP:Code Example nicholashale$ tex
+texi2dvi  texi2pdf  texindex  textutil  
+Nicholass-MBP:Code Example nicholashale$ tex
+texi2dvi  texi2pdf  texindex  textutil  
+Nicholass-MBP:Code Example nicholashale$ cat ./Instructions.txt
+cat: ./Instructions.txt: No such file or directory
+Nicholass-MBP:Code Example nicholashale$ emacs
+Nicholass-MBP:Code Example nicholashale$ emacs Instructions.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+The main file is the "Graph" class so you only have to compile that one and the\
+ others should follow. The two text files are the files to read from. "5lw.dat"\
+ is the full dictionary, "5lw-s.dat" is a much smaller list that's easier to us\
+e for testing.
+
+It takes a file name as an input from the command line, so to run it from a bas\
+h shell (after compiling), you would type "java Graph 5lw.dat" which would star\
+t the game with the full dictionary. Then, just follow the prompts.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-uuu:**-F1  Instructions.txt   All L3     (Text)--------------------------------
+
